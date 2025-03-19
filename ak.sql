@@ -1,5 +1,6 @@
 
 create database aki;
+create database if not exists aki;
 use aki;
 
 create table aksh (
