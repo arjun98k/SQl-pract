@@ -13,3 +13,4 @@ insert into aksh values(1,"Arjun",23);
 insert into aksh values(2,"lotus",22);
 insert into aksh values(3,"adi",24);
 select name from aksh;
+show databases;
