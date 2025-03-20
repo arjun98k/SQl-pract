@@ -21,3 +21,7 @@ values
 (6,"vijaya",99,"A","pune");
 
 select marks, city from student;
+
+select distinct city from student;
+
+select * from student where marks>80;
