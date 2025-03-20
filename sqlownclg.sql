@@ -19,3 +19,5 @@ values
 (4,"sanika",85,"A","mumbai"),
 (5,"ankita",90,"A","delhi"),
 (6,"vijaya",99,"A","pune");
+
+select marks, city from student;
