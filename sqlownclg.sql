@@ -39,3 +39,13 @@ select * from student where marks > 80 limit 2;
 select * from student order by city desc;
 
 select * from student order by marks asc;
+
+select max(marks) from student;
+select avg(marks) from student;
+select min(marks) from student;
+select count(name) from student;
+
+select city, count(name) 
+from student group by city;
+
+select * from student where marks > 90 limit 1;
