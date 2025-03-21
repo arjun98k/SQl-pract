@@ -45,7 +45,13 @@ select avg(marks) from student;
 select min(marks) from student;
 select count(name) from student;
 
-select city, name count(name) 
+select city, name, count(name) 
 from student group by city, name;
 
 select * from student where marks > 90 limit 1;
+
+
+select grade, count(rollno)
+from student 
+group by grade
+order by  grade;
