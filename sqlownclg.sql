@@ -28,4 +28,6 @@ select * from student where marks>80;
 
 select * from student where marks > 80 and city ="pune";
 
-select * from student where marks between 80 and 90; 
+
+
+select * from student where city in ("mumbai");
