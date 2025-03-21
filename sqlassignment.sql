@@ -16,3 +16,5 @@ values
 (22,"takshraj",27000);
 
 select* from empinfo;
+
+
