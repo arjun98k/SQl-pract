@@ -55,3 +55,9 @@ select grade, count(rollno)
 from student 
 group by grade
 order by  grade;
+
+
+select count(name), city
+from student 
+group by city
+having max(marks)>90;
