@@ -31,3 +31,7 @@ select * from student where marks > 80 and city ="pune";
 
 
 select * from student where city in ("mumbai");
+
+select * from student where city not in ("mumbai");
+
+select * from student where marks > 80 limit 2;
