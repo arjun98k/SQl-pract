@@ -35,3 +35,5 @@ select * from student where city in ("mumbai");
 select * from student where city not in ("mumbai");
 
 select * from student where marks > 80 limit 2;
+
+select * from student order by city desc;
