@@ -60,11 +60,20 @@ order by  grade;
 select count(name), city
 from student 
 group by city
-having max(marks)>90;
+having max(marks)>75;
 
 
 
 select city from student
 where grade = "A"
 group by city
-having max(marks) > 90;
+having max(marks) > 75
+order by city desc;
+
+SET SQL_SAFE_UPDATES = 0;
+
+update student
+set grade = "O" 
+where grade ="A";
+
+select * from student;
