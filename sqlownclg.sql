@@ -77,3 +77,13 @@ set grade = "O"
 where grade ="A";
 
 select * from student;
+
+update student 
+set marks = 90
+where rollno = 1;
+
+select * from student;
+
+update student
+set grade ="I"
+where rollno = 4;
