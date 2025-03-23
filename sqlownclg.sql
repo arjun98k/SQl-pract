@@ -87,3 +87,8 @@ select * from student;
 update student
 set grade ="I"
 where rollno = 4;
+
+
+
+delete from student
+where marks = 90;
