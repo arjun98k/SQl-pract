@@ -110,3 +110,6 @@ where rollno = 4;
 
 delete from student
 where marks = 90;
+
+select * from student
+where marks > 80;
