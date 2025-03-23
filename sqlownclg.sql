@@ -113,3 +113,6 @@ where marks = 90;
 
 select * from student
 where marks > 80;
+
+select max(marks)
+from student;
