@@ -119,3 +119,9 @@ from student;
 update student
 set marks =90
 where rollno = 2;
+
+
+alter table student 
+add column age int;
+
+select * from student;
