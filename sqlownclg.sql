@@ -180,3 +180,11 @@ select *
 from student as s
 right join course as c
 on s.id = c.id;
+
+select avg(marks)
+from stud;
+
+select name 
+from stud
+where marks > (select avg(marks)
+from stud);
