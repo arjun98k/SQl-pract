@@ -169,3 +169,9 @@ from student as s
 inner join course as c
 on s.id = c.id ;
 
+
+select * 
+from student as s
+left join course as c
+on s.id = c.id;
+
