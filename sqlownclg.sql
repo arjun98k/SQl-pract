@@ -148,3 +148,8 @@ values
 (103,"arjun");
 
 select * from student;
+
+create table course(
+id int primary key ,
+course varchar(30)
+);
