@@ -127,4 +127,7 @@ add column age int;
 alter table student 
 drop column age ;
 
+alter table student
+modify age varchar(20);
+
 select * from student;
