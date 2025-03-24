@@ -134,3 +134,15 @@ alter table student
 rename to stud;
 
 select * from stud;
+
+
+create table student(
+id int primary key,
+name varchar(30)
+);
+
+insert into student(id, name)
+values
+(101,"aksh"),
+(102,"binod"),
+(103,"arjun");
