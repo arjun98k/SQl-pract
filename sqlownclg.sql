@@ -130,4 +130,7 @@ drop column age ;
 alter table student
 modify age varchar(20);
 
-select * from student;
+alter table student
+rename to stud;
+
+select * from stud;
