@@ -146,3 +146,5 @@ values
 (101,"aksh"),
 (102,"binod"),
 (103,"arjun");
+
+select * from student;
