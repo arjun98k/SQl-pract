@@ -188,3 +188,13 @@ select name
 from stud
 where marks > (select avg(marks)
 from stud);
+
+select rollno
+from stud 
+where rollno%2=0;
+
+select name 
+from stud
+where rollno in (select rollno
+from stud 
+where rollno%2=0);
