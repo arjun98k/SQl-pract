@@ -164,3 +164,8 @@ values
 
 select * from course;
 
+select *
+from student 
+inner join course
+on student.id = course.id ;
+
