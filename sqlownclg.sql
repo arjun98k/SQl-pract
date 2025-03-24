@@ -153,3 +153,14 @@ create table course(
 id int primary key ,
 course varchar(30)
 );
+
+
+insert into course (id, course)
+values
+( 102, "english"),
+(105,"math"),
+(103,"science"),
+(107,"computer scince");
+
+select * from course;
+
