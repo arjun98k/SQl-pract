@@ -124,4 +124,7 @@ where rollno = 2;
 alter table student 
 add column age int;
 
+alter table student 
+drop column age ;
+
 select * from student;
