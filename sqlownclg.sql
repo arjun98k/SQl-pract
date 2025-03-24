@@ -1,4 +1,4 @@
-create database college;
+ create database college;
 
 use college;
 
@@ -165,7 +165,7 @@ values
 select * from course;
 
 select *
-from student 
-inner join course
-on student.id = course.id ;
+from student as s 
+inner join course as c
+on s.id = c.id ;
 
